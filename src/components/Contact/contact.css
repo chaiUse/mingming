@@ -1,0 +1,26 @@
+.contact-container {
+  /* 设置背景图 */
+  background-image: url('https://ilrorwxhionoln5p.ldycdn.com/cloud/jmBpoKmqllSRkkjijnkjio/yinshuachejian-640-640.jpg'); /* 替换为你的背景图 URL */
+  background-size: cover; /* 背景图铺满整个容器 */
+  background-position: center; /* 背景图居中 */
+  background-repeat: no-repeat; /* 背景图不重复 */
+  width: 100%; /* 容器宽度占满整个屏幕 */
+  height: 100vh; /* 容器高度占满整个视口 */
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  flex-direction: column; /* 子元素垂直排列 */
+  padding: 20px; /* 添加一些内边距 */
+}
+
+.contact-content {
+  /* background: #ffffff; */
+
+  background: radial-gradient(ellipse at center, rgb(40, 39, 39) 0%, rgba(255, 255, 255, 0) 100%);
+  text-align: center; /* 文本居中 */
+  color: rgb(255, 255, 255) !important; /* 文本颜色 */
+}
+
+.contact-content * {
+  color: inherit !important; /* 确保所有子元素继承父元素的颜色 */
+}
