@@ -15,7 +15,7 @@ const Introduction = () => {
       </div>
 
       {/* 图片和详细内容部分 */}
-      <Row gutter={[16, 16]} style={{ width: '100%', height: '30%' }}>
+      <Row gutter={[16, 16]} style={{ width: '100%', height: '100%' }}>
         <Col span={8} style={{ height: '100%' }}>
           {/* 图片 */}
           <img
